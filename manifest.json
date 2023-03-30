@@ -10,7 +10,7 @@
   "description": "Work ext to help add more functionality to Brightree",
    "content_scripts": [
    {
-     "matches": ["https://brightree.net/*"],
+     "matches": ["https://brightree.net/F1/0189/LouisClarkME/Receipts/Deposits/Deposit_Receipt_ApplyPayment.*"],
      "js": ["script.js"]
    }
  ]
