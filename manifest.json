@@ -7,6 +7,10 @@
    {
      "matches": ["https://brightree.net/F1/0189/LouisClarkME/Receipts/Deposits/Deposit_Receipt_ApplyPayment.*"],
      "js": ["script.js"]
+   },
+     {
+     "matches": ["https://brightree.net/F1/0189/LouisClarkME/Receipts/Deposits/Deposit_QuickPayment_Search.*"],
+     "js": ["enter.js"]
    }
  ]
 }
