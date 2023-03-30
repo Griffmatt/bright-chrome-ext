@@ -31,9 +31,10 @@ const typeValue = 4;
     const select = document.getElementById(typeIds[index]);
     const hiddenInput = document.getElementById(hiddenIds[index]);
 
+    select.value = typeValue;
+    
     if (payment !== "$0.00") {
       input.value = adjustValue;
-      select.value = typeValue;
 
       const stringValueF = () => {
         let value = adjustValue;
