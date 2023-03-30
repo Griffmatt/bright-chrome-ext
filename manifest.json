@@ -2,11 +2,6 @@
   "manifest_version": 3,
   "name": "Work EXT",
   "version": "1.0.0",
-
-  "action": {
-    "default_popup": "index.html",
-    "default_title": "Work EXT"
-  },
   "description": "Work ext to help add more functionality to Brightree",
    "content_scripts": [
    {
