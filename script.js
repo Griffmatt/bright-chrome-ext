@@ -23,7 +23,6 @@ const hiddenIds = hiddenInputsArray
 
 const typeValue = 4;
 
-const adjustAll = () => {
   priceIds.forEach((id, index) => {
     const row = document.getElementById(id);
     let adjustValue = row.children[6].innerHTML;
@@ -61,7 +60,3 @@ const adjustAll = () => {
       });
     }
   });
-};
-
-const adjustButton = document.getElementById("adjustAll");
-adjustButton.addEventListener("click", adjustAll);
