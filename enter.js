@@ -1,9 +1,5 @@
-function simulateKey(view, keyCode, key) {
-  let event = document.createEvent("Event")
-  event.initEvent("keydown", true, true)
-  event.keyCode = keyCode
-  event.key = event.code = key
-  return view.someProp("handleKeyDown", f => f(view, event))
-}
+const searchId = "ctl00_ctl00_ctl00_c_c_tabSpecificButtonHolder_btnSearch_input"
 
-simulateKey(view, 13, "Enter")
+const searchButton = document.getElementById(searchId)
+
+searchButton.click()
